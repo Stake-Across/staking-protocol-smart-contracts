@@ -140,4 +140,25 @@ This guide outlines the process of deploying and interacting with the `StakeAcro
 ## Additional Information
 
 Each step in this process is a Hardhat Task, located in separate, sequentially numbered files in `./tasks`. Follow the sequence and pay attention to the console outputs for a smooth execution of the use case.
-'''
+
+
+# Project Roadmap: TODO List
+
+As part of our ongoing efforts to enhance and optimize our project, we have identified key areas for improvement and expansion. The following items are prioritized in our development roadmap:
+
+1. **Activation of Fee Collection Mechanism**:
+   - The protocol already includes a fee collection mechanism during Redeem or Withdraw operations. Our immediate task is to activate and configure this feature to ensure a sustainable economic model for the protocol’s maintenance and growth.
+
+2. **Enabling Vault Hooks for Yield Strategies**:
+   - Our Vault contract is designed with hooks for integration with yield strategy contracts. The next step involves activating these hooks to enable the Vault to interact effectively with selected yield-generating strategies. This activation is crucial for enhancing the protocol's ability to generate returns for its users.
+
+3. **Development of Dynamic NFT System**:
+   - We plan to create a dynamic Non-Fungible Token (NFT) system. This system will track and represent each user's reputation, investment history, and earnings, serving as a unique digital asset that reflects the user's engagement and success within the platform.
+
+4. **Strategic Protocol Deployment**:
+   - We aim to deploy the Protocol on a blockchain network that strikes an optimal balance between cost-efficiency and reliability. The chosen network should minimize transaction costs while maintaining high standards of performance and security.
+
+5. **Expanding Sender Contract Deployment**:
+   - To enhance the protocol’s reach and interoperability, we will deploy the `Sender` contract across all Ethereum Virtual Machine (EVM) compatible networks supported by Chainlink's Cross-Chain Interoperability Protocol (CCIP). This expansion will significantly increase the protocol's accessibility across diverse blockchain ecosystems.
+
+These initiatives are integral to the project's advancement and will be actively pursued in our development cycle. We look forward to updating our community as we achieve these milestones.
